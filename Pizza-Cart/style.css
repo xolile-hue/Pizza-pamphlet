@@ -1,0 +1,133 @@
+body{
+    background-color: aquamarine;
+}
+
+.pizza{
+    background-color:#f08080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: green;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+    display: block;
+    
+
+}
+@media (min-width:760px){
+.pizzas {
+    display: flex;
+}    
+body{
+    background-color: aqua;
+}
+
+}
+.footer{
+    position: bottom;
+    background-color: yellow;
+    display: flex;
+    padding: 1em;
+    margin: 1em;
+}
+.side-bar{
+    text-align: right;
+    flex: 1;
+}
+
+
+
+.small_pizza{
+    background-color:#f08080;
+
+}
+
+.large_pizza{
+    background-color: #f6bc66;
+    
+}
+
+.medium_pizza{
+    background-color:#f2d557;
+    
+}
+
+.contact_us{
+  background-color: lightgreen;
+}
+
+.pizza1 {
+    width: 15%;
+}
+.pizza2 {
+    width: 25%;
+}
+.pizza3 {
+    width: 50%;
+}
+
+/*----------------------------------cart styling-------------------------------*/
+
+.front-cart {
+    display: flex;
+    background-color: #f08080;
+    margin: 0 1em 0 1em;
+}
+
+.frontImg {
+    display: flex;
+    width: 33%;
+    margin: 75px 0 5px 0;
+}
+.Head {
+    width: 33%;
+}
+
+.OpenBtnCart {
+    width: 33%;
+}
+
+.frontImg1, .frontImg2, .frontImg3 {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.OpenBtnCart {
+    margin: 5px 0  0 0;
+    text-align: center;
+}
+
+.End-cart {
+    display: flex;
+    justify-content: flex-end;
+    margin: -7.5em 1em 0 1em;
+}
+
+.End-cart1{
+    background-color: #f08080;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .End-cart1 {
+        width: 50%;
+    }
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid black;
+    vertical-align: bottom;
+}
+.CloseBtn {
+    margin: 5px 0 5px 0;
+} 
+
+.paymentMessage {
+    margin:0 0 1em 0;
+}
